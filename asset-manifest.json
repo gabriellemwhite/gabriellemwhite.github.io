@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gabriellemwhite.github.io/static/css/main.dc4d6ff2.css",
+    "main.js": "/gabriellemwhite.github.io/static/js/main.c6a3f2a1.js",
+    "index.html": "/gabriellemwhite.github.io/index.html",
+    "main.dc4d6ff2.css.map": "/gabriellemwhite.github.io/static/css/main.dc4d6ff2.css.map",
+    "main.c6a3f2a1.js.map": "/gabriellemwhite.github.io/static/js/main.c6a3f2a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.c6a3f2a1.js"
+  ]
+}
