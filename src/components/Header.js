@@ -25,7 +25,7 @@ function Header() {
             <div className="profile-section pt-3 pt-lg-0">
               <img
                 className="profile-image mb-5 rounded-circle mx-auto"
-                src={process.env.PUBLIC_URL + '/assets/images/profile.png'}
+                src={process.env.PUBLIC_URL + "/assets/images/profile.png"}
                 title="Gabrielle White"
                 alt="Gabrielle White Picture"
                 href="/"
@@ -37,21 +37,21 @@ function Header() {
               {/*//bio*/}
               <ul className="social-list list-inline py-2 mx-auto">
                 <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/in/gabriellemwhite/" 
-                  title="LinkedIn">
+                  <a
+                    href="https://www.linkedin.com/in/gabriellemwhite/"
+                    title="LinkedIn"
+                  >
                     <i className="fab fa-linkedin-in fa-fw" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://github.com/gabriellemwhite"
-                  title="GitHub">
+                  <a href="https://github.com/gabriellemwhite" title="GitHub">
                     <i className="fab fa-github-alt fa-fw" />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://medium.com/@gabriellemwhite"
-                  title="Medium">
-                  <i class="fa-brands fa-medium" />
+                  <a href="https://medium.com/@gabriellemwhite" title="Medium">
+                    <i class="fa-brands fa-medium" />
                   </a>
                 </li>
               </ul>
@@ -79,7 +79,13 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={process.env.PUBLIC_URL + 'assets/GabrielleWhite-SoftwareEngineer-Resume.pdf'} download>
+                <a
+                  className="nav-link"
+                  href={
+                    process.env.PUBLIC_URL +
+                    "/assets/GabrielleWhite-SoftwareEngineer-Resume.pdf"
+                  }
+                >
                   <i className="fas fa-file-alt fa-fw me-2" />
                   Resume
                 </a>
