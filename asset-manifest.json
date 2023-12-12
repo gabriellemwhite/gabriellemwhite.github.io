@@ -4,7 +4,10 @@
     "main.js": "/static/js/main.c6a3f2a1.js",
     "index.html": "/index.html",
     "main.dc4d6ff2.css.map": "/static/css/main.dc4d6ff2.css.map",
-    "main.c6a3f2a1.js.map": "/static/js/main.c6a3f2a1.js.map"
+    "main.c6a3f2a1.js.map": "/static/js/main.c6a3f2a1.js.map",
+    "assets/GabrielleWhite-SoftwareEngineer-Resume.pdf" : "/assets/GabrielleWhite-SoftwareEngineer-Resume.pdf",
+    "assets/images/about-me.jpg" : "/assets/images/about-me.jpg",
+    "assets/images/profile.png" : "/assets/images/profile.png"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
