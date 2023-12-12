@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.dc4d6ff2.css",
-    "main.js": "/static/js/main.c6a3f2a1.js",
+    "main.js": "/static/js/main.a5c28464.js",
     "index.html": "/index.html",
     "main.dc4d6ff2.css.map": "/static/css/main.dc4d6ff2.css.map",
-    "main.c6a3f2a1.js.map": "/static/js/main.c6a3f2a1.js.map",
-    "assets/GabrielleWhite-SoftwareEngineer-Resume.pdf" : "/assets/GabrielleWhite-SoftwareEngineer-Resume.pdf",
-    "assets/images/about-me.jpg" : "/assets/images/about-me.jpg",
-    "assets/images/profile.png" : "/assets/images/profile.png"
+    "main.a5c28464.js.map": "/static/js/main.a5c28464.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.c6a3f2a1.js"
+    "static/js/main.a5c28464.js"
   ]
 }
