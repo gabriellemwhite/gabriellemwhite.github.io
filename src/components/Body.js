@@ -11,20 +11,23 @@ function Home() {
           <div className="container">
             <div className="profile-teaser row">
               <div className="col">
+                {/*About Me*/}
                 <h2 className="name font-weight-bold mb-1">Gabrielle White</h2>
                 <div className="tagline mb-3">Software Engineer</div>
                 <div className="bio mb-4">
-                  I'm an early career Software Engineer with a foundation in
+                  I'm an early-career Software Engineer with a foundation in
                   full-stack development, Android development, data analytics,
-                  and adeptness in a professional scrum work environment. I'm
-                  eager to apply knowledge gained from my Bachelor's Degree in
-                  Computer obtained at Florida Atlantic University, and hands-on
-                  experience in enterprise-level software development lifecycle
-                  and DevOps. I'm highly committed to ongoing learning of
-                  emerging technologies and enthusiastic about collaborating
+                  and everything in between. I have extensive knowledge and
+                  experience that I'm eager to apply in a professional scrum
+                  work environment. I provided excellent and worthwhile effort
+                  to obtain my Bachelor's Degree in Computer Science from my
+                  alma mater, Florida Atlantic University, and have hands-on
+                  experience in the enterprise-level software development
+                  lifecycle and DevOps. I'm highly committed to ongoing learning
+                  of emerging technologies and enthusiastic about collaborating
                   with innovative and creative peers.
                 </div>
-                {/*//bio*/}
+                {/*About Me Links*/}
                 <div className="mb-4">
                   <a className="btn btn-primary me-2 mb-3" href="#portfolio">
                     <i className="fas fa-arrow-alt-circle-right me-2" />
@@ -47,7 +50,7 @@ function Home() {
                 <img
                   className="profile-image img-fluid mb-3 mb-lg-0 me-md-0"
                   src={process.env.PUBLIC_URL + "/assets/images/about-me.jpg"}
-                  alt="A girl coding at her desk with a black cat"
+                  alt="A girl coding at her desk with her black cat"
                   title="This image was created by Bing AI!"
                   href="/"
                 />
@@ -56,14 +59,13 @@ function Home() {
           </div>
         </section>
 
-        {/*//skills-section*/}
+        {/* Skills  */}
 
         <section className="overview-section p-3 p-lg-5" id="skills">
           <div className="container">
             <h2 className="section-title font-weight-bold mb-3">Skills</h2>
             <div className="section-intro mb-5"></div>
             <div className="row">
-              {/*//item*/}
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -72,9 +74,8 @@ function Home() {
                   <h3 className="item-title">Java</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -83,9 +84,8 @@ function Home() {
                   <h3 className="item-title">Vanilla JavaScript</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -94,9 +94,8 @@ function Home() {
                   <h3 className="item-title">React</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -105,9 +104,8 @@ function Home() {
                   <h3 className="item-title">Node.js</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -116,9 +114,8 @@ function Home() {
                   <h3 className="item-title">Python &amp; Django</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -127,9 +124,8 @@ function Home() {
                   <h3 className="item-title">Android</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -139,9 +135,8 @@ function Home() {
                   <h3 className="item-title">HTML &amp; CSS</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
-              {/*//item*/}
+
               <div className="item col-6 col-lg-3">
                 <div className="item-inner">
                   <div className="item-icon">
@@ -150,13 +145,14 @@ function Home() {
                   <h3 className="item-title">Bootstrap</h3>
                   <div className="item-desc"></div>
                 </div>
-                {/*//item-inner*/}
               </div>
             </div>
             {/*//row*/}
           </div>
           {/*//container*/}
         </section>
+
+        {/* Portfolio/Projects  */}
 
         <div className="container">
           <hr />
@@ -165,33 +161,33 @@ function Home() {
           <div className="container">
             <h2 className="section-title font-weight-bold mb-5">Portfolio</h2>
             <div className="row">
+              {/*Project 1*/}
               <div className="col-md-6 mb-5">
                 <div className="card project-card">
-                  <div className="row no-gutters">
-                    {/* <div className="col-12 col-xl-5 card-img-holder">
+                  {/* <div className="col-12 col-xl-5 card-img-holder">
                   <img
                     src="assets/images/project/project-1.jpg"
                     className="card-img"
                     alt="image"
                   />
                 </div> */}
-                    <div className="col-12 col-xl-7">
-                      <div className="card-body">
-                        <h5 className="card-title">
-                          <a
-                            href="https://github.com/gabriellemwhite/Cryptock"
-                            className="theme-link"
-                          >
-                            Cryptocurrency / Stock Price Monitoring & News
-                            AndroidApp - Cryptock
-                          </a>
-                        </h5>
-                        <p className="card-text">
-                          Designed and developed a cryptocurrency/stock
-                          monitoring Android app enabling users to access
-                          real-time market prices and news through RESTful APIs.
-                        </p>
-                      </div>
+                  {/* Adjust Width of Card via col-xl- */}
+                  <div className="col-12 col-xl-12">
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        <a
+                          href="https://github.com/gabriellemwhite/Cryptock"
+                          className="theme-link"
+                        >
+                          Cryptocurrency / Stock Price Monitoring & News
+                          AndroidApp - Cryptock
+                        </a>
+                      </h5>
+                      <p className="card-text">
+                        Designed and developed a cryptocurrency/stock monitoring
+                        Android app enabling users to access real-time market
+                        prices and news through RESTful APIs.
+                      </p>
                     </div>
                   </div>
                   <div className="link-mask">
@@ -214,9 +210,10 @@ function Home() {
                 {/*//card*/}
               </div>
               {/*//col*/}
+              {/*Project 2*/}
               <div className="col-md-6 mb-5">
                 <div className="card project-card">
-                  <div className="row no-gutters">
+                  <div className="row   ">
                     {/* <div className="col-12 col-xl-5 card-img-holder">
                   <img
                     src="assets/images/project/project-2.jpg"
@@ -224,7 +221,7 @@ function Home() {
                     alt="image"
                   />
                 </div> */}
-                    <div className="col-12 col-xl-7">
+                    <div className="col-12 col-xl-12">
                       <div className="card-body">
                         <h5 className="card-title">
                           <a
@@ -263,9 +260,10 @@ function Home() {
                 {/*//card*/}
               </div>
               {/*//col*/}
+              {/*Project 3*/}
               <div className="col-md-6 mb-5">
                 <div className="card project-card">
-                  <div className="row no-gutters">
+                  <div className="row   ">
                     {/* <div className="col-12 col-xl-5 card-img-holder">
                   <img
                     src="assets/images/project/project-3.jpg"
@@ -273,7 +271,7 @@ function Home() {
                     alt="image"
                   />
                 </div> */}
-                    <div className="col-12 col-xl-7">
+                    <div className="col-12 col-xl-12">
                       <div className="card-body">
                         <h5 className="card-title">
                           <a
@@ -303,6 +301,54 @@ function Home() {
                       <a
                         className="btn btn-secondary"
                         href="https://github.com/gabriellemwhite/Cryptek"
+                      >
+                        <i className="fas fa-eye me-2" />
+                        View Project
+                      </a>
+                    </div>
+                  </div>
+                  {/*//link-mask*/}
+                </div>
+                {/*//card*/}
+              </div>
+              {/*//col*/}
+              {/*Project 4*/}
+              <div className="col-md-6 mb-5">
+                <div className="card project-card">
+                  <div className="row   ">
+                    {/* <div className="col-12 col-xl-5 card-img-holder">
+                  <img
+                    src="assets/images/project/project-3.jpg"
+                    className="card-img"
+                    alt="image"
+                  />
+                </div> */}
+                    <div className="col-12 col-xl-12">
+                      <div className="card-body">
+                        <h5 className="card-title">
+                          <a
+                            href="https://github.com/gabriellemwhite/gabriellemwhite.github.io"
+                            className="theme-link"
+                          >
+                            React Portfolio on GitHub Pages
+                          </a>
+                        </h5>
+                        <p className="card-text">
+                          A React based portfolio hosted on GitHub Pages to
+                          showcase my skills, resume, and projects.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="link-mask">
+                    <a
+                      className="link-mask-link"
+                      href="https://github.com/gabriellemwhite/gabriellemwhite.github.io"
+                    />
+                    <div className="link-mask-text">
+                      <a
+                        className="btn btn-secondary"
+                        href="https://github.com/gabriellemwhite/gabriellemwhite.github.io"
                       >
                         <i className="fas fa-eye me-2" />
                         View Project
